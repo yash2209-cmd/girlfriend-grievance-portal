@@ -104,7 +104,7 @@ def submit():
             <p><strong>Description:</strong><br>{desc}</p>
             <hr>
             <p>Click below to respond:</p>
-            <form action="{PORTAL_URL}/login" method="GET">
+            <form action="https://sehaj-grievance-portal.up.railway.app/login" method="GET">
                 <button type="submit" style="padding: 10px; background-color: pink; border: none; border-radius: 5px;">Respond 💌</button>
             </form>
         """
